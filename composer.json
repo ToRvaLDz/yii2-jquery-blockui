@@ -1,0 +1,33 @@
+{
+  "name": "torvalds/yii2-jquery-blockui",
+  "description": "Yii2 jquery-blockui",
+  "keywords": [
+    "jquery",
+    "blockui"
+  ],
+  "type": "yii2-extension",
+  "license": "BSD",
+  "support": {
+    "source": "https://github.com/torvaldz/yii2-jquery-blockui"
+  },
+  "authors": [
+    {
+      "name": "Marco Migozzi",
+      "email": "torvaldz@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "torvalds\\blockui\\": ""
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "bower-asset/blockui": "*"
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
